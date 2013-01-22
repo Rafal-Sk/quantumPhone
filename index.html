@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+  <title> Silly Simple </title>
+</head>
+  <body>
+  <div>
+  <img src="qua.jpeg" alt="qua.jpg" width="256" height="80" />
+    </div>
+	<h2>Test PhoneGAP Build - Gitub</h2>
+	<button id="silly"> Data </button>
+	 <button id="clear">Clear</button>
+	 <h2>     </h2>
+	 <button class="button" onclick="pokaz();"> Test </button>
+	 <h2>     </h2>
+	 <div id="result"> </div>
+
+
+
+<script src="zeptojs.js"></script>
+<script src="silly.js"></script>
+<script>
+$('#silly').click(function() {
+ SILLY.DoIT($('#result'));
+ });
+$('#clear').click(function() {
+   $('#result').html('');
+ });
+ 
+ function pokaz()
+ {
+ alert("Witam! Dzia³a aplikacja! ");
+ }
+ 
+ 
+ 
+</script>
+
+	  </body>
+</html> 
